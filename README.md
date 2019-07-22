@@ -70,7 +70,7 @@ O Cruzamento é aplicado a partir de dois metodos: **Crossover(String Pai, Strin
 A Mutação é feita a partir dos metodos **Mutacao(String Fenotipo)** e **aplicaMutacao(ArrayList<String> idvs)**.  O primeiro recebe a string com o fenótipo do indivíduo e realiza operação em uma posição random. O Segundo chama o primeiro método com todos os indivíduos, porém antes faz a verificação dos 9% de taxa. 
 ### **Substituição**
 
-A partir do array retornado pelo método de **AplicaMutação**, este é copiado para o array de população inicial ArrayList<String> população através do método GeraNovaPopulacao() que aplica todos os métodos acima. 
+A partir do array retornado pelo método de **AplicaMutação**, este é copiado para o array de população inicial ArrayList<String> população através do método **GeraNovaPopulacao()** que aplica todos os métodos acima. 
 
 
 
